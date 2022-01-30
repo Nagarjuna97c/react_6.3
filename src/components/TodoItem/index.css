@@ -1,0 +1,29 @@
+.para {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  color: #333333;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #0b69ff;
+}
+
+.todo-item-container {
+  height: 70px;
+  margin-top: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}

@@ -1,0 +1,60 @@
+.main-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.unordered-list {
+  padding: 18px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin-top: 17px;
+  margin-bottom: 1px;
+  color: #ff8542;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 12px;
+  color: #333333;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  padding: 8px 12px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #0b69ff;
+}
+
+.todo-item-container {
+  width: 500px;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
